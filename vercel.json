@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "chatapp",
+    "builds": [{ "src1": "index.js", "use1": "@vercel/node" }, { "src": "", "use": "@vercel/npm start" }],
+    "routes": [{ "src1": "/(.*)", "dest1": "./server/index.js" }, { "src": "/(.*)", "dest": "./frontEnd/mychat/index.js" }]
+    
+
+  }
